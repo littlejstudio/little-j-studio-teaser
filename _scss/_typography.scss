@@ -1,0 +1,76 @@
+$merriweather: 'Merriweather', serif;
+$raleway: 'Raleway', sans-serif;
+
+*, html, body {
+  font-family: $raleway;
+}
+
+h1, .h1 {
+  font-size: 24px;
+}
+
+h2, .h2 {
+  font-size: 22px;
+}
+
+h3, .h3 {
+  font-size: 20px;
+}
+
+h4, .h4 {
+  font-size: 18px;
+}
+
+h5, .h5 {
+  font-size: 16px;
+}
+
+h6, .h6 {
+  font-size: 14px;
+}
+
+p, .p {
+  font-size: 14px;
+}
+
+a {
+  color: $dark-gray;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $raleway;
+}
+
+p {
+  font-family: $raleway;
+}
+
+.subtext {
+  font-size: 12px;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+.u-text-right {
+  text-align: right;
+}
+
+.u-font-0 {
+  font-size: 0;
+}
+
+.white-link {
+  color: $off-white;
+  &:hover, &:focus {
+    color: $off-white;
+  }
+}

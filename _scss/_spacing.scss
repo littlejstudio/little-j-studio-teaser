@@ -1,0 +1,57 @@
+$spacing: ("xxs": 4px, "xs": 8px, "s": 16px, "m": 24px, "l": 32px);
+
+// margin
+@each $name, $space in $spacing {
+  .u-marginTop-#{$name} {
+    margin-top: $space;
+  }
+}
+@each $name, $space in $spacing {
+  .u-marginBottom-#{$name} {
+    margin-bottom: $space;
+  }
+}
+@each $name, $space in $spacing {
+  .u-marginLeft-#{$name} {
+    margin-left: $space;
+  }
+}
+@each $name, $space in $spacing {
+  .u-marginRight-#{$name} {
+    margin-right: $space;
+  }
+}
+
+// padding
+@each $name, $space in $spacing {
+  .u-margin-#{$name} {
+    margin: $space;
+  }
+}
+
+@each $name, $space in $spacing {
+  .u-paddingTop-#{$name} {
+    padding-top: $space;
+  }
+}
+@each $name, $space in $spacing {
+  .u-paddingBottom-#{$name} {
+    padding-bottom: $space;
+  }
+}
+@each $name, $space in $spacing {
+  .u-paddingLeft-#{$name} {
+    padding-left: $space;
+  }
+}
+@each $name, $space in $spacing {
+  .u-paddingRight-#{$name} {
+    padding-right: $space;
+  }
+}
+
+@each $name, $space in $spacing {
+  .u-padding-#{$name} {
+    padding: $space;
+  }
+}

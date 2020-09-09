@@ -1,0 +1,20 @@
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.u-flex {
+  display: flex;
+}
+
+.u-alignItems-flexEnd {
+  align-items: flex-end;
+}
+
+.u-flex-half {
+  flex: 50%;
+}
+
+.u-border {
+  border: 1px solid $light-gray;
+}
