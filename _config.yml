@@ -23,6 +23,15 @@ description: Little j studio is a Portland pottery studio focusing on handmade, 
 email: jessica@littlejstudio.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.littlejstudio.com" # the base hostname & protocol for your site, e.g. http://example.com
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 sass:
   sass_dir: _scss
 collections:
