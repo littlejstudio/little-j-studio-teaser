@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: little j studio
+description: Little j studio is a Portland pottery studio focusing on handmade, functional pottery.
 email: jessica@littlejstudio.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.littlejstudio.com" # the base hostname & protocol for your site, e.g. http://example.com
