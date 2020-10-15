@@ -27,17 +27,16 @@ sass:
 collections:
   pottery_photos:
     order:
-      - wildfire-mugs.md
+      - fruit-bowl.md
       - white-cracked-vase.md
-      - two-tone-mugs.md
-      - red-vase.md
+      - marbled-mugsv2.md
+      - wildfire-mugs.md
       - stamp.md
+      - two-tone-mugs.md
+      - succulent-pots.md
+      - red-vase.md
       - white-bowls.md
-      - white-vase.md
-      - mountain-mugs.md
-      - marbled-mugs.md
       - drip-mugs.md
-      - fruit-bowl-unglazed.md
       - brown-vase.md
       - bark-mugs.md
 
